@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.SampleApp.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Splash screen background -->
+        <item name="android:windowSplashScreenBackground">#87CEEB</item>
+
+        <!-- Animated logo (can be a PNG or Vector) -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/leafsolid</item>
+
+    </style>
+
+    <!-- Main App Theme -->
+    <style name="Theme.SampleApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your app theme here if needed -->
+    </style>
+
+</resources>
