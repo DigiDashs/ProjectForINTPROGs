@@ -42,7 +42,7 @@ class LoginActivity : Activity() {
             // Validate login credentials
             if (username == validUsername && password == validPassword) {
 
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, GreetingActivity::class.java)
                 startActivity(intent)
                 finish()
             } else {
